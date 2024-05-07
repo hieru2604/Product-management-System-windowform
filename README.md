@@ -1,6 +1,6 @@
-## Laptop Demo
+# Laptop Demo
 Product Management system using c# windowform and mssql
-# Features
+## Features
  - Track keeping records
  - Product list management
  - Stock entry management
@@ -21,7 +21,7 @@ Product Management system using c# windowform and mssql
 
 ![Screenshot 2024-05-07 163018](https://github.com/hieru2604/Product-management-System-windowform/assets/88078435/d3296d9c-3258-496b-ae68-5f8b5f15a3fc)
 
-# Installation
+## Installation
 Open sql server management studio, select database engine, right click database and select import Data-tier Application.
 import using the database.bacpac file included in the database folder
 
