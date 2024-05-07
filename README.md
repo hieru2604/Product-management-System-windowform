@@ -8,6 +8,7 @@ Product Management system using c# windowform and mssql
  - POS records
  - Account user management
  - Cashier system
+
 ![Screenshot 2024-05-07 163608](https://github.com/hieru2604/Product-management-System-windowform/assets/88078435/d802455a-54d1-43dc-a21c-586a1b260218)
 
 ![Screenshot 2024-05-07 162041](https://github.com/hieru2604/Product-management-System-windowform/assets/88078435/5a44ddec-f00b-49e8-8017-f0b745737567)
@@ -23,12 +24,14 @@ Product Management system using c# windowform and mssql
 # Installation
 Open sql server management studio, select database engine, right click database and select import Data-tier Application.
 import using the database.bacpac file included in the database folder
+
 ![Screenshot 2024-05-07 165933](https://github.com/hieru2604/Product-management-System-windowform/assets/88078435/44ed8537-c503-4b2b-8f18-11fb43ada27a)
 
 Open the project in visual studio 2019, select server explorer in the top left corner
 Right click on data connections and select add connection..
 Input the server name you stored your database in, select the database 
 Open the advanced and copy the entire string at the bottom of the panel
+
 ![image](https://github.com/hieru2604/Product-management-System-windowform/assets/88078435/a8677fa2-0d08-4cec-824b-bdbd62ede7d7)
 
 Once the database is connected and test connection is success,
