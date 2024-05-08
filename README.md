@@ -22,20 +22,20 @@ Product Management system using c# windowform and mssql
 ![Screenshot 2024-05-07 163018](https://github.com/hieru2604/Product-management-System-windowform/assets/88078435/d3296d9c-3258-496b-ae68-5f8b5f15a3fc)
 
 ## Installation
-Open sql server management studio, select database engine, right click database and select import Data-tier Application.
+Open sql server management studio, select database engine, right click database and import Data-tier Application. 
 import using the database.bacpac file included in the database folder
 
 ![Screenshot 2024-05-07 165933](https://github.com/hieru2604/Product-management-System-windowform/assets/88078435/44ed8537-c503-4b2b-8f18-11fb43ada27a)
 
-Open the project in visual studio 2019, select server explorer in the top left corner
-Right click on data connections and select add connection..
-Input the server name you stored your database in, select the database 
-Open the advanced and copy the entire string at the bottom of the panel
+Open the project in visual studio 2019, select server explorer in the top left corner, 
+Right click on data connections and select add connection.
+Input the server name you stored your database in, select the database. 
+Open the advanced and copy the entire string at the bottom of the panel.
 
 ![image](https://github.com/hieru2604/Product-management-System-windowform/assets/88078435/a8677fa2-0d08-4cec-824b-bdbd62ede7d7)
 
 Once the database is connected and test connection is success,
-Open the DBConnect.cs folder and replace the connection string
+Open DBConnect.cs and replace the connection string
 ```python
  public string myConnection()
         {   //besure to change the line below to the database that you connected to
